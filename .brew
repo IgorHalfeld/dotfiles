@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+# Updating and Upgrading
+brew update
+brew upgrade
+
+# Installing productivity steroids
+brew install awscli
+brew install azure-cli
+brew install curl
+brew install ffmpeg
+brew install gcc
+brew install git
+brew install go
+brew install gradle
+brew install graphicsmagick
+brew install htop
+brew install kubernetes-cli
+brew install neovim
+brew install python
+brew install python3
+brew install sqlite
+brew install terraform
+brew install the_silver_searcher
+brew install tmux
+brew install tree
+brew install watchman
+brew install wget
+brew install yarn
+brew install zsh
+
+# Taps
+brew tap homebrew/services
+brew tap homebrew/cask
+brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
+
+# Cleanup
+brew cleanup

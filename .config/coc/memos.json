@@ -1,0 +1,1635 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "ae5da8d92bef52c50f501e4f521e901c205f24d4b6d2ea62e1fc1466a8afc4753fa4ea2fe346f1b894f063f2609080f8df8db7d7d67975cec2db254c6eb14466"
+      },
+      "expiry": 1601348742118
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "55d1e13184e54da406989a11e499fcb95768d4f943c3e27ffd2cec7611f919412fd07a69d9f6a1f78a65a8db48e16cf9d73ade5743b63178ce9a38c3b446a453"
+      },
+      "expiry": 1601348742157
+    },
+    "/usr/local/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "b9ce5c30fc6da95dec4818bf661c165e43b4fcca7254e4902251b5d696c1c82e00a77092bce0054d3cb99f459edb2bd548892f2013e58ed19f3122090274922b"
+      },
+      "expiry": 1601348742116
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "32155ca5edb3a60357185ab7b7d3b4191e4c6856fd20c2a65b74845f4a588ed4f9a8dd461fdbe2e0f26b75105be8d430fda6a3b7344172f0733bbb9d1ab175f1"
+      },
+      "expiry": 1601348742153
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "eac0471206fec8e0c2b021ae1be130351d8b761fc45854675dfb732719e562accf0b4c482a9e9ccb14305a3a4d525a5e3a2696c558a01754c16937d1704465d4"
+      },
+      "expiry": 1601348742154
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "356ab9c914e167209a76231b59e7a4ddfc900ea726ed315d5b8a3439cc5831c2ccff0938f010e5df341366d6b9495c099af958bd23f88bd4b472dddd7845a5b8"
+      },
+      "expiry": 1601348743972
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "0198376ce15c7a7f8cdfe1b97b4933aad37a80a8ff7cda055c749e4694855f04583de89c6496566f4eadc6a08b8f238d634edae42a6ed07cc53db159a2ae3d42",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a0212cf7815917e693a4e352ea2c2918900bfe56be987921116835616135943ab63caa69df5895845c3b5cc9ed7c1595bc37f72d6e6b4941f6b4e34c7bc0cb84",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "ae5da8d92bef52c50f501e4f521e901c205f24d4b6d2ea62e1fc1466a8afc4753fa4ea2fe346f1b894f063f2609080f8df8db7d7d67975cec2db254c6eb14466",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "b9ce5c30fc6da95dec4818bf661c165e43b4fcca7254e4902251b5d696c1c82e00a77092bce0054d3cb99f459edb2bd548892f2013e58ed19f3122090274922b",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "eac0471206fec8e0c2b021ae1be130351d8b761fc45854675dfb732719e562accf0b4c482a9e9ccb14305a3a4d525a5e3a2696c558a01754c16937d1704465d4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "32155ca5edb3a60357185ab7b7d3b4191e4c6856fd20c2a65b74845f4a588ed4f9a8dd461fdbe2e0f26b75105be8d430fda6a3b7344172f0733bbb9d1ab175f1",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "55d1e13184e54da406989a11e499fcb95768d4f943c3e27ffd2cec7611f919412fd07a69d9f6a1f78a65a8db48e16cf9d73ade5743b63178ce9a38c3b446a453",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "356ab9c914e167209a76231b59e7a4ddfc900ea726ed315d5b8a3439cc5831c2ccff0938f010e5df341366d6b9495c099af958bd23f88bd4b472dddd7845a5b8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "ae5da8d92bef52c50f501e4f521e901c205f24d4b6d2ea62e1fc1466a8afc4753fa4ea2fe346f1b894f063f2609080f8df8db7d7d67975cec2db254c6eb14466",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "b9ce5c30fc6da95dec4818bf661c165e43b4fcca7254e4902251b5d696c1c82e00a77092bce0054d3cb99f459edb2bd548892f2013e58ed19f3122090274922b",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "eac0471206fec8e0c2b021ae1be130351d8b761fc45854675dfb732719e562accf0b4c482a9e9ccb14305a3a4d525a5e3a2696c558a01754c16937d1704465d4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "32155ca5edb3a60357185ab7b7d3b4191e4c6856fd20c2a65b74845f4a588ed4f9a8dd461fdbe2e0f26b75105be8d430fda6a3b7344172f0733bbb9d1ab175f1",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "55d1e13184e54da406989a11e499fcb95768d4f943c3e27ffd2cec7611f919412fd07a69d9f6a1f78a65a8db48e16cf9d73ade5743b63178ce9a38c3b446a453",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "356ab9c914e167209a76231b59e7a4ddfc900ea726ed315d5b8a3439cc5831c2ccff0938f010e5df341366d6b9495c099af958bd23f88bd4b472dddd7845a5b8",
+        "type": "Unknown"
+      }
+    ],
+    "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+        "fileHash": "f507796e65d6ef96c47356e5300932550886fcd8fd48594390b0e70cd2523a53c866364431838d005ba2a86e44f7b3e0d8b3301c81211c56c64e2b95d10d48c5"
+      },
+      "expiry": 1598928644668
+    },
+    "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+        "fileHash": "a2d33698b394e87ab52c9648721bc08ec4bb3e41957861dd0889968f73a9c5f4fd75a6d95a48fb805314c614d977b2abb5ba492f9158b96bfdf94697790efe39"
+      },
+      "expiry": 1598928644666
+    },
+    "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+        "fileHash": "08cca06b449df55c4cba28147ade82ea07c82d49988a7094c543c0212e0d7b4e2cf6f3e39fc97a1615c0b34b74f894f2414b020bc32ebb7bd947ba3eded44264"
+      },
+      "expiry": 1598928644667
+    },
+    "/usr/local/opt/python@3.8/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/opt/python@3.8/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "c94535e3da329cc85c79542a8ffc665ad2ae58f87f645a2a16c5c0c9cc144f18f19e90f837e48cea2cc59c128d3f4156d63055b66268232d28c40c3549a382af"
+      },
+      "expiry": 1601348742191
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "ca9cd415744c493256e97415eaaa6841d352522ce9a24e3b75eef63003b3e4eb45e209008ec0f4d9a25457e391f419b0e0884506dfb08bb742c51aa03dca27c4"
+      },
+      "expiry": 1601348742195
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a0212cf7815917e693a4e352ea2c2918900bfe56be987921116835616135943ab63caa69df5895845c3b5cc9ed7c1595bc37f72d6e6b4941f6b4e34c7bc0cb84",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "ca9cd415744c493256e97415eaaa6841d352522ce9a24e3b75eef63003b3e4eb45e209008ec0f4d9a25457e391f419b0e0884506dfb08bb742c51aa03dca27c4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "0198376ce15c7a7f8cdfe1b97b4933aad37a80a8ff7cda055c749e4694855f04583de89c6496566f4eadc6a08b8f238d634edae42a6ed07cc53db159a2ae3d42",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "eac0471206fec8e0c2b021ae1be130351d8b761fc45854675dfb732719e562accf0b4c482a9e9ccb14305a3a4d525a5e3a2696c558a01754c16937d1704465d4-affabcd6e42fa4a070f38c52a7b1b891"
+      },
+      "expiry": 1601348758496
+    },
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "ae5da8d92bef52c50f501e4f521e901c205f24d4b6d2ea62e1fc1466a8afc4753fa4ea2fe346f1b894f063f2609080f8df8db7d7d67975cec2db254c6eb14466-58ca7245ceca14d1d84237c501e6abdb"
+      },
+      "expiry": 1601348758494
+    },
+    "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('.venv': venv)",
+        "hash": "f507796e65d6ef96c47356e5300932550886fcd8fd48594390b0e70cd2523a53c866364431838d005ba2a86e44f7b3e0d8b3301c81211c56c64e2b95d10d48c5-1e225dd01464a1b21d1b4ac979783891"
+      },
+      "expiry": 1598928644645
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit",
+        "hash": "356ab9c914e167209a76231b59e7a4ddfc900ea726ed315d5b8a3439cc5831c2ccff0938f010e5df341366d6b9495c099af958bd23f88bd4b472dddd7845a5b8-be43322a85a8e9e57a22816bde5ba6e4"
+      },
+      "expiry": 1601348758495
+    },
+    "/usr/local/opt/python@3.8/bin/python3.8.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "c94535e3da329cc85c79542a8ffc665ad2ae58f87f645a2a16c5c0c9cc144f18f19e90f837e48cea2cc59c128d3f4156d63055b66268232d28c40c3549a382af-d4f61cc28fcfc719ffb25e34be7d4cd8"
+      },
+      "expiry": 1601348742310
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "ca9cd415744c493256e97415eaaa6841d352522ce9a24e3b75eef63003b3e4eb45e209008ec0f4d9a25457e391f419b0e0884506dfb08bb742c51aa03dca27c4-c87cac8c3760d69b85f568cfeebee197"
+      },
+      "expiry": 1601348742308
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "eac0471206fec8e0c2b021ae1be130351d8b761fc45854675dfb732719e562accf0b4c482a9e9ccb14305a3a4d525a5e3a2696c558a01754c16937d1704465d4",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "eac0471206fec8e0c2b021ae1be130351d8b761fc45854675dfb732719e562accf0b4c482a9e9ccb14305a3a4d525a5e3a2696c558a01754c16937d1704465d4",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1601348758505
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ae5da8d92bef52c50f501e4f521e901c205f24d4b6d2ea62e1fc1466a8afc4753fa4ea2fe346f1b894f063f2609080f8df8db7d7d67975cec2db254c6eb14466",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+          "fileHash": "ae5da8d92bef52c50f501e4f521e901c205f24d4b6d2ea62e1fc1466a8afc4753fa4ea2fe346f1b894f063f2609080f8df8db7d7d67975cec2db254c6eb14466",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1601348758499
+    },
+    "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "f507796e65d6ef96c47356e5300932550886fcd8fd48594390b0e70cd2523a53c866364431838d005ba2a86e44f7b3e0d8b3301c81211c56c64e2b95d10d48c5",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+          "fileHash": "f507796e65d6ef96c47356e5300932550886fcd8fd48594390b0e70cd2523a53c866364431838d005ba2a86e44f7b3e0d8b3301c81211c56c64e2b95d10d48c5",
+          "envName": ".venv",
+          "type": "Venv",
+          "displayName": "Python 3.7.3 64-bit ('.venv': venv)"
+        }
+      },
+      "expiry": 1598928644655
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "356ab9c914e167209a76231b59e7a4ddfc900ea726ed315d5b8a3439cc5831c2ccff0938f010e5df341366d6b9495c099af958bd23f88bd4b472dddd7845a5b8",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7",
+          "fileHash": "356ab9c914e167209a76231b59e7a4ddfc900ea726ed315d5b8a3439cc5831c2ccff0938f010e5df341366d6b9495c099af958bd23f88bd4b472dddd7845a5b8",
+          "type": "Unknown",
+          "displayName": "Python 3.7.3 64-bit"
+        }
+      },
+      "expiry": 1601348758502
+    },
+    "/usr/local/opt/python@3.8/bin/python3.8.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "c94535e3da329cc85c79542a8ffc665ad2ae58f87f645a2a16c5c0c9cc144f18f19e90f837e48cea2cc59c128d3f4156d63055b66268232d28c40c3549a382af",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/opt/python@3.8/bin/python3.8",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+          "fileHash": "c94535e3da329cc85c79542a8ffc665ad2ae58f87f645a2a16c5c0c9cc144f18f19e90f837e48cea2cc59c128d3f4156d63055b66268232d28c40c3549a382af",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1601348742337
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ca9cd415744c493256e97415eaaa6841d352522ce9a24e3b75eef63003b3e4eb45e209008ec0f4d9a25457e391f419b0e0884506dfb08bb742c51aa03dca27c4",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "ca9cd415744c493256e97415eaaa6841d352522ce9a24e3b75eef63003b3e4eb45e209008ec0f4d9a25457e391f419b0e0884506dfb08bb742c51aa03dca27c4",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1601348742334
+    },
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.7",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+      "fileHash": "a0212cf7815917e693a4e352ea2c2918900bfe56be987921116835616135943ab63caa69df5895845c3b5cc9ed7c1595bc37f72d6e6b4941f6b4e34c7bc0cb84",
+      "envName": ".venv",
+      "type": "Venv"
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+      "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.8/bin/python3.8",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "c94535e3da329cc85c79542a8ffc665ad2ae58f87f645a2a16c5c0c9cc144f18f19e90f837e48cea2cc59c128d3f4156d63055b66268232d28c40c3549a382af",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "ae5da8d92bef52c50f501e4f521e901c205f24d4b6d2ea62e1fc1466a8afc4753fa4ea2fe346f1b894f063f2609080f8df8db7d7d67975cec2db254c6eb14466",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3.7.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a2d33698b394e87ab52c9648721bc08ec4bb3e41957861dd0889968f73a9c5f4fd75a6d95a48fb805314c614d977b2abb5ba492f9158b96bfdf94697790efe39"
+      },
+      "expiry": 1598928644741
+    },
+    "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3.7.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('.venv': venv)",
+        "hash": "a2d33698b394e87ab52c9648721bc08ec4bb3e41957861dd0889968f73a9c5f4fd75a6d95a48fb805314c614d977b2abb5ba492f9158b96bfdf94697790efe39-31373ae80e64ad0eb9f9294d202a50e2"
+      },
+      "expiry": 1598928644756
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "ae5da8d92bef52c50f501e4f521e901c205f24d4b6d2ea62e1fc1466a8afc4753fa4ea2fe346f1b894f063f2609080f8df8db7d7d67975cec2db254c6eb14466",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+      "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251",
+      "type": "VirtualEnv"
+    },
+    "ProposeLSBanner": false,
+    "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251"
+      },
+      "expiry": 1601348742227
+    },
+    "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "0198376ce15c7a7f8cdfe1b97b4933aad37a80a8ff7cda055c749e4694855f04583de89c6496566f4eadc6a08b8f238d634edae42a6ed07cc53db159a2ae3d42"
+      },
+      "expiry": 1601348742224
+    },
+    "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a0212cf7815917e693a4e352ea2c2918900bfe56be987921116835616135943ab63caa69df5895845c3b5cc9ed7c1595bc37f72d6e6b4941f6b4e34c7bc0cb84"
+      },
+      "expiry": 1601348742229
+    },
+    "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('.venv': venv)",
+        "hash": "0198376ce15c7a7f8cdfe1b97b4933aad37a80a8ff7cda055c749e4694855f04583de89c6496566f4eadc6a08b8f238d634edae42a6ed07cc53db159a2ae3d42-67ada243f17c7467fcb410f06c33c22c"
+      },
+      "expiry": 1601348742305
+    },
+    "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251"
+      },
+      "expiry": 1601348742315
+    },
+    "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "0198376ce15c7a7f8cdfe1b97b4933aad37a80a8ff7cda055c749e4694855f04583de89c6496566f4eadc6a08b8f238d634edae42a6ed07cc53db159a2ae3d42",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+          "fileHash": "0198376ce15c7a7f8cdfe1b97b4933aad37a80a8ff7cda055c749e4694855f04583de89c6496566f4eadc6a08b8f238d634edae42a6ed07cc53db159a2ae3d42",
+          "envName": ".venv",
+          "type": "Venv",
+          "displayName": "Python 3.7.3 64-bit ('.venv': venv)"
+        }
+      },
+      "expiry": 1601348742330
+    },
+    "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('.venv': venv)",
+        "hash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251-4930dab961c82210e4efa1e7f813e3da"
+      },
+      "expiry": 1601348742356
+    }
+  },
+  "coc-python|/Users/igorhalfeld/Documents/projects/tracknotebook": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:1f1afffded3446a3a233f3b5511d14bf": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:1f1afffded3446a3a233f3b5511d14bf": [
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+        "fileHash": "f507796e65d6ef96c47356e5300932550886fcd8fd48594390b0e70cd2523a53c866364431838d005ba2a86e44f7b3e0d8b3301c81211c56c64e2b95d10d48c5",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+        "fileHash": "08cca06b449df55c4cba28147ade82ea07c82d49988a7094c543c0212e0d7b4e2cf6f3e39fc97a1615c0b34b74f894f2414b020bc32ebb7bd947ba3eded44264",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+        "fileHash": "a2d33698b394e87ab52c9648721bc08ec4bb3e41957861dd0889968f73a9c5f4fd75a6d95a48fb805314c614d977b2abb5ba492f9158b96bfdf94697790efe39",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3.7",
+    "autoSelectedWorkspacePythonInterpreter-/Users/igorhalfeld/Documents/projects/tracknotebook": {
+      "architecture": 3,
+      "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3.7",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+      "fileHash": "a2d33698b394e87ab52c9648721bc08ec4bb3e41957861dd0889968f73a9c5f4fd75a6d95a48fb805314c614d977b2abb5ba492f9158b96bfdf94697790efe39",
+      "envName": ".venv",
+      "type": "Venv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+        "fileHash": "f507796e65d6ef96c47356e5300932550886fcd8fd48594390b0e70cd2523a53c866364431838d005ba2a86e44f7b3e0d8b3301c81211c56c64e2b95d10d48c5",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+        "fileHash": "08cca06b449df55c4cba28147ade82ea07c82d49988a7094c543c0212e0d7b4e2cf6f3e39fc97a1615c0b34b74f894f2414b020bc32ebb7bd947ba3eded44264",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/tracknotebook/.venv",
+        "fileHash": "a2d33698b394e87ab52c9648721bc08ec4bb3e41957861dd0889968f73a9c5f4fd75a6d95a48fb805314c614d977b2abb5ba492f9158b96bfdf94697790efe39",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/private/tmp": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2b37db29235e4f3b3390565530c3f734": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2b37db29235e4f3b3390565530c3f734": [],
+    "autoSelectedWorkspacePythonInterpreter-/private/tmp": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.8/bin/python3.8",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "c94535e3da329cc85c79542a8ffc665ad2ae58f87f645a2a16c5c0c9cc144f18f19e90f837e48cea2cc59c128d3f4156d63055b66268232d28c40c3549a382af",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/igorhalfeld/Documents/projects/papersit": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:1a31740a3ad5688ed44af87f360c4986": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:1a31740a3ad5688ed44af87f360c4986": [
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "0198376ce15c7a7f8cdfe1b97b4933aad37a80a8ff7cda055c749e4694855f04583de89c6496566f4eadc6a08b8f238d634edae42a6ed07cc53db159a2ae3d42",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a0212cf7815917e693a4e352ea2c2918900bfe56be987921116835616135943ab63caa69df5895845c3b5cc9ed7c1595bc37f72d6e6b4941f6b4e34c7bc0cb84",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/igorhalfeld/Documents/projects/papersit": {
+      "architecture": 3,
+      "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+      "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "0198376ce15c7a7f8cdfe1b97b4933aad37a80a8ff7cda055c749e4694855f04583de89c6496566f4eadc6a08b8f238d634edae42a6ed07cc53db159a2ae3d42",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a38a34734b581eb89a0d02b100a97cc643af886859e183760c68baf98f37d01cfce8e599b8d7ce6cb069982ac0f9a85e1f184a36c299393cb2756761caa90251",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/igorhalfeld/Documents/projects/papersit/.venv",
+        "fileHash": "a0212cf7815917e693a4e352ea2c2918900bfe56be987921116835616135943ab63caa69df5895845c3b5cc9ed7c1595bc37f72d6e6b4941f6b4e34c7bc0cb84",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/igorhalfeld/Documents/projects/papersit/.venv/bin/python3"
+  }
+}

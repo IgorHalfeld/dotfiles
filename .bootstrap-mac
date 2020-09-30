@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+
+echo "###########################"
+echo "Setting up this Macbook ..."
+echo "###########################"
+
+echo
+echo "> Tell me your full name:"
+read fullname
+
+echo
+echo "> Tell me your email:"
+read email
+
+echo
+echo "> Checking if exists software updates"
+sudo softwareupdate -i -a
+
+echo
+echo "> Installing command-line-tools"
+xcode-select --install
+
+sudo scutil --set ComputerName "$fullname's Macbook"
+sudo scutil --set HostName "$fullname's Macbook"
+
+echo
+echo "> Setting up git user"
+git config --global user.name $fullname
+git config --global user.email $email
+
+
+echo
+echo "> Install Homebrew"
+# Install brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
+# Brewing
+echo
+echo "> Brewing apps"
+sh .brew
+
+
+# Cask
+echo
+echo "> Installing casks"
+sh .cask
+
+
+# Mac App Store app's
+echo
+echo "> Installing Mac App Store app's with mas"
+sh .mas
+
+
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+# Vim Plug (for Neovim)
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+
+# NVM and latest Node LTS
+echo
+echo "> Installing Node Version Manager"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+echo "> Installing node 12 and setting as default"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+nvm install 12
+nvm alias default 12
+echo "Installed node $(node --version) and made it default"
+
+# Install oh-my-zsh
+echo
+echo "> Installing oh-my-zsh and plugins"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# Configure oh-my-zsh
+echo
+echo "> Downloading halfeld theme"
+curl https://raw.githubusercontent.com/IgorHalfeld/halfeld-zsh-theme/master/halfeld.zsh-theme --output $HOME/.oh-my-zsh/themes/halfeld.zsh-theme
+
+echo
+echo "> Adding oh-my-zsh config file"
+cp .exports ~/.exports
+cp .zshrc ~/.zshrc
+cp .fzf.zsh ~/.fzf.zsh
+
+# NPM global cli's
+echo
+echo "> Installing npm global cli's"
+sh .npm-apps
+
+
+# Restart computer
+echo
+echo "###########################"
+echo " Finished your Setup!!"
+echo " Restart your computer now!"
+echo "###########################"
