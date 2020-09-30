@@ -1,0 +1,69 @@
+{
+  "eslint.packageManager": "npm",
+  "eslint.autoFixOnSave": true,
+  "tsserver.npm": "/usr/local/bin/npm",
+  "prettier.tslintIntegration": true,
+  "prettier.eslintIntegration": true,
+  "prettier.disableSuccessMessage": true,
+  "suggest.noselect": false,
+  "snippets.extends": {
+    "typescript": ["javascript"]
+  },
+  "suggest.enablePreselect": false,
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "graphql", "html", "json", "css", "scss", "dart", "python"],
+  "languageserver": {
+    "ccls": {
+        "command": "ccls",
+        "filetypes": [
+            "c",
+            "cpp",
+            "objc",
+            "objcpp"
+        ],
+        "rootPatterns": [
+            ".ccls",
+            "compile_commands.json",
+            ".vim/",
+            ".git/",
+            ".hg/"
+        ],
+        "initializationOptions": {
+            "cache": {
+                "directory": "/tmp/ccls"
+            }
+        }
+    },
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": [
+        "go.mod",
+        ".vim/",
+        ".git/",
+        ".hg/"
+      ],
+      "filetypes": [
+        "go"
+      ],
+      "settings": {
+        "gopls": {
+          "deepCompletion": true,
+          "completeUnimported": true,
+          "usePlaceholders": false,
+          "watchFileChanges": true
+        }
+      },
+      "trace.server": "verbose"
+    },
+    "dart": {
+      "command": "dart",
+      "args": [
+        "/usr/local/opt/dart/libexec/bin/snapshots/analysis_server.dart.snapshot",
+        "--lsp"
+      ],
+      "filetypes": ["dart"],
+      "disableDynamicRegister": true,
+      "trace.server": "verbose"
+    }
+  }
+}
