@@ -25,24 +25,26 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight', {'on': 'NERDTreeToggle'}
 
 " Languages
+Plug 'tomlion/vim-solidity'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'prettier/vim-prettier', {
   \ 'do': 'npm install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml'] }
 Plug 'pangloss/vim-javascript'
 Plug 'ruanyl/vim-fixmyjs'
-Plug 'dart-lang/dart-vim-plugin'
-Plug 'thosakwe/vim-flutter'
-Plug 'dart-lang/dart-vim-plugin'
-Plug 'natebosch/vim-lsc'
-Plug 'natebosch/vim-lsc-dart'
+"Plug 'dart-lang/dart-vim-plugin'
+"Plug 'thosakwe/vim-flutter'
+"Plug 'dart-lang/dart-vim-plugin'
+"Plug 'natebosch/vim-lsc'
+"Plug 'natebosch/vim-lsc-dart'
 Plug 'ap/vim-css-color', {'for': ['css', 'scss']}
-Plug 'jparise/vim-graphql'
-Plug 'evanleck/vim-svelte'
+"Plug 'jparise/vim-graphql'
 
 
 " Other
-"Plug 'easymotion/vim-easymotion'
+Plug 'bagrat/vim-buffet'
+"Plug 'mg979/vim-xtabline'
+Plug 'easymotion/vim-easymotion'
 Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 Plug 'ncm2/ncm2-bufword'
@@ -57,6 +59,7 @@ Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
+"Plug 'github/copilot.vim'
 
 " FZF
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': { -> fzf#install() } }
@@ -111,6 +114,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let g:go_diagnostics_level = 2
 let g:go_highlight_build_constraints = 1
 let g:go_highlight_extra_types = 1
 let g:go_highlight_fields = 1
@@ -132,12 +136,29 @@ command! -bang -nargs=? -complete=dir Files call fzf#vim#files(<q-args>, fzf#vim
 "# Mappings
 let mapleader="\<space>"
 
-"map <Leader> <Plug>(easymotion-prefix)
+
+"--- start easymotion config
+" <Leader>f{char} to move to {char}
+map  <leader>f <Plug>(easymotion-bd-f)
+nmap <leader>f <Plug>(easymotion-overwin-f)
+
+" s{char}{char} to move to {char}{char}
+nmap s <Plug>(easymotion-overwin-f2)
+
+" Move to line
+map <leader>L <Plug>(easymotion-bd-jk)
+nmap <leader>L <Plug>(easymotion-overwin-line)
+
+" Move to word
+map  <leader>w <Plug>(easymotion-bd-w)
+nmap <leader>w <Plug>(easymotion-overwin-w)
+"--- end easymotion config
+
 noremap <c-b> :NERDTreeToggle<cr>
 nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 
-noremap <leader>f :Fixmyjs<cr>
+noremap <leader>d :Fixmyjs<cr>
 noremap <leader>p :Files<cr>
 noremap <leader>b :Buffers<cr>
 noremap <leader><S-p> :Ag<cr>
@@ -158,8 +179,26 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nmap <silent> [e <Plug>(coc-diagnostic-prev)
 nmap <silent> ]e <Plug>(coc-diagnostic-next)
 
+nmap <leader>1 <Plug>BuffetSwitch(1)
+nmap <leader>2 <Plug>BuffetSwitch(2)
+nmap <leader>3 <Plug>BuffetSwitch(3)
+nmap <leader>4 <Plug>BuffetSwitch(4)
+nmap <leader>5 <Plug>BuffetSwitch(5)
+nmap <leader>6 <Plug>BuffetSwitch(6)
+nmap <leader>7 <Plug>BuffetSwitch(7)
+nmap <leader>8 <Plug>BuffetSwitch(8)
+nmap <leader>9 <Plug>BuffetSwitch(9)
+nmap <leader>0 <Plug>BuffetSwitch(10)
+
 " Use K to show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
+endfunction
 
 " Remap for rename current word
 nmap <leader>rn <Plug>(coc-rename)
@@ -209,7 +248,9 @@ set termguicolors
 "colorscheme palenight 
 "colorscheme gruvbox
 "colorscheme lucid
-colorscheme material
+"colorscheme material
+let ayucolor="mirage" 
+colorscheme ayu
 
 let g:material_terminal_italics = 1
 let g:material_theme_style = 'darker'
@@ -235,6 +276,9 @@ hi ErrorMsg  cterm=italic
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
 command! CleanReg for i in range(34,122) | silent! call setreg(nr2char(i), []) | endfor
+
+
+autocmd FileType yml setlocal ts=2 sts=2 sw=2 expandtab
 
 set nocompatible
 set ttyfast
@@ -263,8 +307,9 @@ set tabstop=2
 set shiftwidth=2
 set title
 set list
-set listchars=eol:¬,tab:▸-
+set listchars=eol:¬¨,tab:‚ñ∏-
 set cursorline
+set mouse=a
 set nowrap
 set hidden
 set number
