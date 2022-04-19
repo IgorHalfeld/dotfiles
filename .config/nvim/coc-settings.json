@@ -6,45 +6,44 @@
   "prettier.eslintIntegration": true,
   "prettier.disableSuccessMessage": true,
   "suggest.noselect": false,
+  "typescript.validate.enable": false,
   "snippets.extends": {
     "typescript": ["javascript"]
   },
   "suggest.enablePreselect": false,
   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
-  "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "graphql", "html", "json", "css", "scss", "dart", "python"],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "graphql",
+    "html",
+    "json",
+    "css",
+    "scss",
+    "dart",
+    "python"
+  ],
   "languageserver": {
     "ccls": {
-        "command": "ccls",
-        "filetypes": [
-            "c",
-            "cpp",
-            "objc",
-            "objcpp"
-        ],
-        "rootPatterns": [
-            ".ccls",
-            "compile_commands.json",
-            ".vim/",
-            ".git/",
-            ".hg/"
-        ],
-        "initializationOptions": {
-            "cache": {
-                "directory": "/tmp/ccls"
-            }
-        }
-    },
-    "golang": {
-      "command": "gopls",
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "objc", "objcpp"],
       "rootPatterns": [
-        "go.mod",
+        ".ccls",
+        "compile_commands.json",
         ".vim/",
         ".git/",
         ".hg/"
       ],
-      "filetypes": [
-        "go"
-      ],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        }
+      }
+    },
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"],
       "settings": {
         "gopls": {
           "deepCompletion": true,
