@@ -27,9 +27,10 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight', {'on': 'NERDTreeToggle'}
 " Languages
 Plug 'tomlion/vim-solidity'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+" post install (yarn install | npm install) then load plugin only for editing supported files
 Plug 'prettier/vim-prettier', {
-  \ 'do': 'npm install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml'] }
+  \ 'do': 'yarn install --frozen-lockfile --production',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 Plug 'pangloss/vim-javascript'
 Plug 'ruanyl/vim-fixmyjs'
 "Plug 'dart-lang/dart-vim-plugin'
@@ -39,6 +40,7 @@ Plug 'ruanyl/vim-fixmyjs'
 "Plug 'natebosch/vim-lsc-dart'
 Plug 'ap/vim-css-color', {'for': ['css', 'scss']}
 "Plug 'jparise/vim-graphql'
+
 
 
 " Other
@@ -73,15 +75,9 @@ call plug#end()
 "# Plugin configs
 let g:coc_global_extensions = [
       \ 'coc-tsserver',
-      \ 'coc-vetur',
       \ 'coc-json',
-      "\ 'coc-flutter',
       \ 'coc-html',
       \ 'coc-css',
-      \ 'coc-yaml',
-      \ 'coc-eslint',
-      \ 'coc-prettier',
-      \ 'coc-jest',
       \ 'coc-pairs'
       \ ]
 
@@ -132,6 +128,15 @@ let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 let g:fzf_layout = { 'down': '~20%' }
 command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, '--vimgrep --smart-case', <bang>0)
 command! -bang -nargs=? -complete=dir Files call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
+
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+"let g:prettier#config#single_quote = 'true'
+
+nnoremap gp :silent %!prettier --stdin-filepath %<CR>
+
+"let g:prettier#autoformat = 1
+"let g:prettier#autoformat_require_pragma = 0
+"let g:prettier#exec_cmd_path = "/Users/igor/.nvm/versions/node/v14.19.2/bin/prettier"
 
 "# Mappings
 let mapleader="\<space>"
@@ -307,7 +312,7 @@ set tabstop=2
 set shiftwidth=2
 set title
 set list
-set listchars=eol:¬¨,tab:‚ñ∏-
+"set listchars=eol:¬¨¬®,tab:‚Äö√±‚àè-
 set cursorline
 set mouse=a
 set nowrap
