@@ -5,8 +5,10 @@
   "prettier.tslintIntegration": true,
   "prettier.eslintIntegration": true,
   "prettier.disableSuccessMessage": true,
+  "prettier.singleQuote": true,
   "suggest.noselect": false,
   "typescript.validate.enable": false,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
   "snippets.extends": {
     "typescript": ["javascript"]
   },
