@@ -10,12 +10,13 @@ call plug#begin()
 
 " Interface
 Plug 'eemed/sitruuna.vim'
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
+Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'drewtempelmeyer/palenight.vim'
-Plug 'liuchengxu/space-vim-dark'
-Plug 'cseelus/vim-colors-lucid'
+"Plug 'liuchengxu/space-vim-dark'
+"Plug 'cseelus/vim-colors-lucid'
 Plug 'ayu-theme/ayu-vim'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
@@ -25,12 +26,12 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight', {'on': 'NERDTreeToggle'}
 
 " Languages
-Plug 'tomlion/vim-solidity'
+"Plug 'tomlion/vim-solidity'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " post install (yarn install | npm install) then load plugin only for editing supported files
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install --frozen-lockfile --production',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+"Plug 'prettier/vim-prettier', {
+  "\ 'do': 'yarn install --frozen-lockfile --production',
+  "\ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 Plug 'pangloss/vim-javascript'
 Plug 'ruanyl/vim-fixmyjs'
 "Plug 'dart-lang/dart-vim-plugin'
@@ -55,10 +56,10 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'dense-analysis/ale'
-Plug 'posva/vim-vue'
+"Plug 'posva/vim-vue'
 Plug 'mxw/vim-jsx'
 Plug 'mattn/emmet-vim'
-Plug 'tpope/vim-fugitive'
+"Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 "Plug 'github/copilot.vim'
@@ -134,9 +135,9 @@ command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 
 nnoremap gp :silent %!prettier --stdin-filepath %<CR>
 
-"let g:prettier#autoformat = 1
-"let g:prettier#autoformat_require_pragma = 0
-"let g:prettier#exec_cmd_path = "/Users/igor/.nvm/versions/node/v14.19.2/bin/prettier"
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
+let g:prettier#exec_cmd_path = "/Users/igor/.nvm/versions/node/v14.19.2/bin/prettier"
 
 "# Mappings
 let mapleader="\<space>"
@@ -220,25 +221,25 @@ let g:user_emmet_settings = {
   \  },
   \}
 
-let g:ft = ''
-function! NERDCommenter_before()
-  if &ft == 'vue'
-    let g:ft = 'vue'
-    let stack = synstack(line('.'), col('.'))
-    if len(stack) > 0
-      let syn = synIDattr((stack)[0], 'name')
-      if len(syn) > 0
-        exe 'setf ' . substitute(tolower(syn), '^vue_', '', '')
-      endif
-    endif
-  endif
-endfunction
-function! NERDCommenter_after()
-  if g:ft == 'vue'
-    setf vue
-    let g:ft = ''
-  endif
-endfunction
+"let g:ft = ''
+"function! NERDCommenter_before()
+  "if &ft == 'vue'
+    "let g:ft = 'vue'
+    "let stack = synstack(line('.'), col('.'))
+    "if len(stack) > 0
+      "let syn = synIDattr((stack)[0], 'name')
+      "if len(syn) > 0
+        "exe 'setf ' . substitute(tolower(syn), '^vue_', '', '')
+      "endif
+    "endif
+  "endif
+"endfunction
+"function! NERDCommenter_after()
+  "if g:ft == 'vue'
+    "setf vue
+    "let g:ft = ''
+  "endif
+"endfunction
 
 if (has('nvim'))
   let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
@@ -252,10 +253,11 @@ set termguicolors
 "set t_ut=
 "colorscheme palenight 
 "colorscheme gruvbox
+colorscheme gruvbox-baby
 "colorscheme lucid
 "colorscheme material
-let ayucolor="mirage" 
-colorscheme ayu
+"let ayucolor="mirage" 
+"colorscheme ayu
 
 let g:material_terminal_italics = 1
 let g:material_theme_style = 'darker'
