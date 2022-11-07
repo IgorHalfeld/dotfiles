@@ -11,14 +11,15 @@ call plug#begin()
 " Interface
 Plug 'eemed/sitruuna.vim'
 "Plug 'morhetz/gruvbox'
-Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
+"Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
-Plug 'drewtempelmeyer/palenight.vim'
+"Plug 'drewtempelmeyer/palenight.vim'
 "Plug 'liuchengxu/space-vim-dark'
 "Plug 'cseelus/vim-colors-lucid'
-Plug 'ayu-theme/ayu-vim'
-Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+"Plug 'ayu-theme/ayu-vim'
+"Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+Plug 'hzchirs/vim-material'
 
 " NERDTree
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
@@ -130,14 +131,14 @@ let g:fzf_layout = { 'down': '~20%' }
 command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, '--vimgrep --smart-case', <bang>0)
 command! -bang -nargs=? -complete=dir Files call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
 
-command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+"command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 "let g:prettier#config#single_quote = 'true'
 
 nnoremap gp :silent %!prettier --stdin-filepath %<CR>
 
-let g:prettier#autoformat = 1
-let g:prettier#autoformat_require_pragma = 0
-let g:prettier#exec_cmd_path = "/Users/igor/.nvm/versions/node/v14.19.2/bin/prettier"
+"let g:prettier#autoformat = 1
+"let g:prettier#autoformat_require_pragma = 0
+"let g:prettier#exec_cmd_path = "/Users/igorhalfeld/.nvm/versions/node/v16.15.0/bin/prettier"
 
 "# Mappings
 let mapleader="\<space>"
@@ -179,7 +180,8 @@ nmap <silent> gr <Plug>(coc-references)
 
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position
 " Coc only does snippet and additional edit on confirm
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+"inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 
 " Use `[c` and `]c` to navigate diagnostics
 nmap <silent> [e <Plug>(coc-diagnostic-prev)
@@ -246,21 +248,18 @@ if (has('nvim'))
 endif
 
 "# Vim configs
-
 set background=dark
 set termguicolors
 "set t_Co=256
 "set t_ut=
 "colorscheme palenight 
 "colorscheme gruvbox
-colorscheme gruvbox-baby
+"colorscheme gruvbox-baby
+colorscheme vim-material
 "colorscheme lucid
 "colorscheme material
 "let ayucolor="mirage" 
 "colorscheme ayu
-
-let g:material_terminal_italics = 1
-let g:material_theme_style = 'darker'
 
 hi Normal     ctermbg=NONE guibg=NONE
 hi LineNr     ctermbg=NONE guibg=NONE
