@@ -10,7 +10,7 @@ call plug#begin()
 
 " Interface
 Plug 'eemed/sitruuna.vim'
-"Plug 'morhetz/gruvbox'
+Plug 'morhetz/gruvbox'
 "Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
@@ -24,7 +24,7 @@ Plug 'hzchirs/vim-material'
 " NERDTree
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'scrooloose/nerdcommenter'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight', {'on': 'NERDTreeToggle'}
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight', {'on': 'NERDTreeToggle'}
 
 " Languages
 "Plug 'tomlion/vim-solidity'
@@ -46,6 +46,7 @@ Plug 'ap/vim-css-color', {'for': ['css', 'scss']}
 
 
 " Other
+Plug 'github/copilot.vim'
 Plug 'bagrat/vim-buffet'
 "Plug 'mg979/vim-xtabline'
 Plug 'easymotion/vim-easymotion'
@@ -93,9 +94,20 @@ let g:NERDTreeQuitOnOpen = 0
 let g:palenight_terminal_italics=1
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
-let g:ale_fixers = {}
-let g:ale_fixers.javascript = ['eslint']
+let g:ale_fixers = {
+ \ 'javascript': ['eslint'],
+ \ 'typescript': ['eslint'],
+ \ 'vue': ['eslint']
+ \ }
+ 
 let g:ale_fix_on_save = 1
+let g:ale_sign_error = '>>'
+let g:ale_sign_warning = '--'
+"let g:ale_echo_msg_error_str = 'E'
+"let g:ale_echo_msg_warning_str = 'W'
+"let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+"let g:ale_python_flake8_options = '--max-line-length 88 --extend-ignore=E203'
+
 
 " Dart configs
 let g:lsc_auto_map = v:true
@@ -134,7 +146,7 @@ command! -bang -nargs=? -complete=dir Files call fzf#vim#files(<q-args>, fzf#vim
 "command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 "let g:prettier#config#single_quote = 'true'
 
-nnoremap gp :silent %!prettier --stdin-filepath %<CR>
+"nnoremap gp :silent %!prettier --stdin-filepath %<CR>
 
 "let g:prettier#autoformat = 1
 "let g:prettier#autoformat_require_pragma = 0
@@ -253,9 +265,9 @@ set termguicolors
 "set t_Co=256
 "set t_ut=
 "colorscheme palenight 
-"colorscheme gruvbox
+colorscheme gruvbox
 "colorscheme gruvbox-baby
-colorscheme vim-material
+"colorscheme vim-material
 "colorscheme lucid
 "colorscheme material
 "let ayucolor="mirage" 
